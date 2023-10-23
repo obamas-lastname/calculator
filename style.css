@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    border: 5px solid rgb(78, 104, 153);
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(218, 235, 245);
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.display1, .display2{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+    width: 520px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.display2{
+    display: flex;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.display1{
+    display: flex;
+    font-size: medium;
+    margin-bottom: 0px;
+}
+
+.number{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.misc{
+    display: flex;
+    orientation: landscape;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.misc > button{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-top: 2px solid black;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 28, 39);
+    color: white;
+    border-radius: 20px;
+}
+
+.operations{
+    display:inline-block;
+    flex-direction: column;
+    width: 520px;
+    background: rgb(190, 208, 236);
+    overflow-y: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.operations > button {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgb(3, 28, 39);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
